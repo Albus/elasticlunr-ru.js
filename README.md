@@ -4,7 +4,7 @@
 
 Now, [mdBook](https://github.com/rust-lang/mdBook) is not able to search in Russian.
 
-This is a minimal extension to [Elasticlunr.js](https://github.com/weixsong/elasticlunr.js/) to allow mdBook to search in Japanese.
+This is a minimal extension to [Elasticlunr.js](https://github.com/weixsong/elasticlunr.js/) to allow mdBook to search in Russian.
 
 ## Usage
 
