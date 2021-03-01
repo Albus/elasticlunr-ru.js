@@ -1,11 +1,11 @@
 const elasticlunr = require("./elasticlunr.js");
 require("./lunr.stemmer.support.js")(elasticlunr);
-require("./tinyseg.js")(elasticlunr);
-require("./lunr.ja.js")(elasticlunr);
+//require("./tinyseg.js")(elasticlunr);
+require("./lunr.ru.js")(elasticlunr);
 
 elasticlunr.Index.load = function(index) {
   var idx = elasticlunr(function() {
-    this.use(elasticlunr.ja);
+    this.use(elasticlunr.ru);
     index.fields.forEach(f => {
       this.addField(f);
     });
